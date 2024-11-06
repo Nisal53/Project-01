@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Times New Roman;
+            background-color: black;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        p {
+            font-size: 18px;
+            color: yellow;
+        }
+        .welcome-container {
+            border: 2px solid #4CAF50;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: blue;
+            display: inline-block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-container">
+        <h1>Welcome to Our Website!</h1>
+        <p>We are glad to have you here. Explore our content and enjoy your stay!</p>
+        
+                <a href="Login Page.html" class="btn" style = "color:black">Login</a>
+                <a href="Registration Page.html" class="btn register-btn" style="color:black">Register</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
